@@ -1,0 +1,45 @@
+@media (max-width: 768px){
+    .grid{
+        width: 100%;
+        @include grid((2,auto),(2,auto),"header header""main main""footer footer");
+        header{
+            grid-area: header;
+        }
+        main{
+            grid-area: main;
+        }
+        footer{
+            grid-area: footer;
+        }
+        }
+    }
+    .navbar {
+        li{
+            a{
+                font-size: 15px;
+            }
+    }
+}
+    main{
+        section{
+            div{
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .map{
+            width: 30%;
+        }
+        .menu{
+            @include flex(column, nowrap, center, center)
+        }
+        .menu{
+            img{
+                width: 70%;
+                padding: 5px;
+            }
+        }
+
+    }
+

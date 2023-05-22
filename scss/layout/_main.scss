@@ -1,0 +1,126 @@
+main{
+    background-color: #303E2E;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Alkatra', cursive;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+main{
+    section{
+        padding: 25px;
+    }
+}
+
+main{
+    section{
+        div{
+            p{
+                color: white;
+                font-size:30px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}
+
+.parrilla{
+    width: 25%;
+    padding: 20px;
+}
+
+.pizza{
+    @extend .parrilla
+}
+
+
+
+.redes{
+    @extend .dyc;
+    padding-top: 25px;
+}
+
+
+h2{
+    color:red;
+    font-size: 45px;
+}
+
+
+
+.menu{
+    @include flex(row,nowrap,space-around,center);
+}
+
+.tomate{
+    width: 40%;
+}
+
+.organi{
+    display: flex;
+    flex-direction: row;
+}
+
+.nosotros{
+    @extend .menu;
+}
+
+.nosotros {
+    p{
+        @include flex(row,nowrap,center, center);
+        padding-left: 10px;
+    }
+}
+
+.cuatroquesos{
+    width: 25%;
+}
+
+.prepizzas{
+    @include flex(row,nowrap,space-around,center);
+}
+
+.catering{
+    @extend .prepizzas;
+}
+
+
+
+.familia {
+    width: 75%;
+}
+
+.family{
+    @include flex(column,nowrap,center,center);
+}
+
+.video {
+    width: 20%;
+}
+
+.sugerencias{
+    div{
+    @include flex(column, nowrap, center, center)
+}
+}
+
+.pixa{
+    @extend .prepizzas;
+}
+.pixa{
+    img{
+        width: 50%;
+        padding: 5px;
+    }
+}
+.ingredientes{
+    color: white;
+    font-size: 20px;
+}
+

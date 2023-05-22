@@ -1,0 +1,28 @@
+footer{
+    background-color: #262F25;
+    @include flex(row,nowrap,space-around,center);
+}
+
+.datos1,.datos2 {
+    color: white;
+    padding: 20px;
+}
+
+.ubi {
+    width: 10%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.map{
+    width: 50%;
+}
+
+.ig{
+    list-style: none;
+}
+
+.dyc{
+    display: flex;
+    flex-direction: row;
+}

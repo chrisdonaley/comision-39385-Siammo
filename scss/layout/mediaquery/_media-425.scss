@@ -1,0 +1,80 @@
+@media (max-width: 425px){
+    .grid{
+        width: 100%;
+        @include grid((1,auto),auto, "header""main""footer");
+    }
+    header {
+        grid-area: header;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+}
+
+    main{
+        section{
+            div{
+                p{
+                    color: white;
+                    font-size: 12px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+
+    .navbar{
+        @include flex(column,nowrap,center,center);
+        gap:1px;
+        }
+    .navbar{
+        li{
+            a{
+                font-size: 8px;
+            }
+        }
+        
+    }
+    h1{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .foto1{
+        @include flex(column, nowrap, center, center);
+    }
+    .parrilla{
+        width: 50%;
+    }
+    .dyc{
+        font-size: 10px;
+    }
+    .map{
+        height: 60px;
+    }
+
+    .sugerencias{
+        div{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+
+    main{
+        section{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .ingredientes{
+        color: white;
+        font-size: 10px;
+    }
+
+}

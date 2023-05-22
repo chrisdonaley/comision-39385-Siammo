@@ -1,0 +1,49 @@
+@media (max-width: 1024px){
+    .grid{
+        width: 100%;
+        @include grid((3,auto),(3,auto),"header header header""main main main""footer footer footer");
+    } 
+
+    header{
+        grid-area: header;
+    }
+
+    main{
+        grid-area:main;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+
+    .navbar{
+        gap: 15px;
+    }
+
+    main{
+        section{
+            div{
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .menu{
+        img{
+            width: 50%;
+        }
+    }
+
+    .catering{
+        img{
+            width: 25%;
+            padding: 5px;
+        }
+    }
+
+    .figazza{
+        width: 60%;
+    }
+}
