@@ -212,7 +212,7 @@ main .menu img, main .nosotros img {
   width: 70%;
   padding: 5px; }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   .grid {
     width: 100%;
     display: grid;
