@@ -26,13 +26,12 @@
     }
 
     .navbar{
-        @include flex(column,nowrap,center,center);
-        gap:1px;
+        @include flex(row,nowrap,space-between,center);
         }
     .navbar{
         li{
             a{
-                font-size: 8px;
+                font-size: 11px;
             }
         }
         
@@ -74,7 +73,15 @@
 
     .ingredientes{
         color: white;
-        font-size: 10px;
+        font-size: 11px;
     }
 
+    .encabezado{
+        @include flex(column, nowrap, center, center);
+    }
+
+    .logo {
+        width: 15%;
+        padding-bottom: 5px;
+    }
 }
