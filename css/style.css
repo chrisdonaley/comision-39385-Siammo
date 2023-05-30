@@ -212,7 +212,7 @@ main .menu img, main .nosotros img {
   width: 70%;
   padding: 5px; }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .grid {
     width: 100%;
     display: grid;
@@ -266,6 +266,34 @@ main .menu img, main .nosotros img {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center; }
+  .logo {
+    width: 15%;
+    padding-bottom: 5px; } }
+
+@media (max-width: 320px) {
+  main section div p {
+    color: white;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif; }
+  .navbar li a {
+    font-size: 8px; }
+  h1 {
+    font-size: 15px;
+    padding: 0;
+    padding-top: 10px; }
+  .parrilla, .pizza {
+    width: 30%; }
+  .dyc, .foto1, .redes {
+    font-size: 8px; }
+  .map {
+    height: 45px; }
+  .sugerencias div h2 {
+    font-size: 15px; }
+  main section h2 {
+    font-size: 15px; }
+  .ingredientes {
+    color: white;
+    font-size: 8px; }
   .logo {
     width: 15%;
     padding-bottom: 5px; } }
